@@ -12,8 +12,8 @@ Consignes : le programme :
 
 import random
 
-secret = random.randint(0, 5)
-essai = int(input("Deviner la valeur choisie entre 0 et 5: "))
+secret = random.randint(0, 50)
+essai = int(input("Deviner la valeur choisie entre 0 et 50: "))
 
 if secret == essai:
     print("Bravo ! c'est la bonne valeur :)")
