@@ -9,7 +9,8 @@ Ainsi, les n premiers multiples de 1 strictement positifs (0 non compris)
 sont affichés sur la première ligne, les n premiers multiples de 2 sur la deuxième,
 et cætera.
 """
-n = int(input("Donner votre valeur : \n"))
+
+n = int(input("Donner une valeur positif : \n"))
 
 ligne1 = 1
 
