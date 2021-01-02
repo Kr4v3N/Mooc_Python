@@ -49,6 +49,7 @@ Notons qu’ici en plus d’utiliser un while, succ est imprimé juste après le
 (condition de continuation du while) pour s’assurer qu’il faut effectivement l’imprimer.
 """
 
+
 def fibo(n):
     """calcule le n-ième nombre de Fibonacci, avec : n de type int """
 
@@ -69,5 +70,3 @@ def fibo(n):
 
 for i in range(1, 21):
     print(fibo(i))
-
-
